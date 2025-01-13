@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  main {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  section {
+    padding: 60px 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .desktop-nav button {
+    margin-left: 10px;
+  }
+  
