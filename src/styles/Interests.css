@@ -1,0 +1,59 @@
+/* .flip-card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.flip-card {
+  position: relative;
+  width: 100%;
+  max-width: 280px;
+  height: 350px;
+  perspective: 1000px;
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.flip-card-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.flip-card-container:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  background-color: #4caf50;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  text-align: center;
+}
+
+.flip-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flip-card-front,
+.flip-card-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */

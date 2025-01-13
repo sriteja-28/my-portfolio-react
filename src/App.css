@@ -1,0 +1,10 @@
+.active-link {
+    border-bottom: 2px solid #fff;
+    color: #f50057; 
+  }
+  .desktop-nav button:hover {
+    color: #f50057;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+  
