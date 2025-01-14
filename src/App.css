@@ -1,10 +1,117 @@
 .active-link {
-    border-bottom: 2px solid #fff;
-    color: #f50057; 
+  border-bottom: 2px solid #fff;
+  color: #f50057;
+}
+
+.desktop-nav button:hover {
+  color: #f50057;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to right, orange, white, green) !important;
+  background: radial-gradient(circle, cadetblue);
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  text-align: center;
+}
+
+.section {
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: white;
+
+}
+
+.dot {
+  position: absolute;
+  border-radius: 50%;
+  background-color: cadetblue;
+  width: 5px;
+  height: 5px;
+  animation: sprinkleAnim 0.6s ease-out forwards;
+  pointer-events: none;
+}
+
+@keyframes sprinkleAnim {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
   }
-  .desktop-nav button:hover {
-    color: #f50057;
-    transform: scale(1.1);
-    transition: all 0.3s ease;
+
+  100% {
+    opacity: 0;
+    transform: translate(var(--dx), var(--dy)) scale(0.5);
+  }
+}
+
+
+
+
+#skills {
+  background: url(../src/assets/images/skillsbck1.png);
+}
+
+#about {
+  background: url(../src/assets/images/aboutbck.png);
+
+}
+
+#education {
+  background: url(../src/assets/images/educationbck.png);
+
+}
+
+#certifications {
+  background: url(../src/assets/images/certificationsbck.png);
+
+}
+#internships {
+  background: url(../src/assets/images/internshipbck.png);
+
+}
+#projects {
+  background: url(../src/assets/images/projectsbck.png);
+
+}
+#my-essence {
+  background: url(../src/assets/images/myessence.png);
+
+}#contact {
+  background: url(../src/assets/images/contactusbck.png);
+
+}
+
+#skills,
+#about ,#certifications,#internships,#projects,#my-essence,#contact{
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat !important;
+}
+
+/*   
+  #skills::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../src/assets/images/skillsbck.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(80px);
+    z-index: -1;
   }
   
+  #skills .content {
+    position: relative;
+    z-index: 1; 
+  }
+   */

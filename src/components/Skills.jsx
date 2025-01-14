@@ -16,7 +16,7 @@ const skills = [
 ];
 
 const Skills = () => (
-  <Box sx={{ mt: 5, px: 3 }}>
+  <Box sx={{ mt: 5, px: 3 ,color:'black'}}>
     <Typography variant="h4" sx={{ mb: 3 }}>
       Skills
     </Typography>
