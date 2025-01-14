@@ -3,10 +3,6 @@ html, body {
     padding: 0;
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
-<<<<<<< HEAD
-  }
-  
-=======
     background: url('../src/assets/images/coding.png') ; 
     background-size: cover; 
     background-repeat: no-repeat !important;
@@ -21,7 +17,6 @@ html, body {
     }
 }
 
->>>>>>> gh-pages
   main {
     max-width: 100%;
     overflow-x: hidden;
@@ -45,10 +40,6 @@ html, body {
   .desktop-nav button {
     margin-left: 10px;
   }
-<<<<<<< HEAD
-  
-=======
   input{
     color: aliceblue;
   }
->>>>>>> gh-pages

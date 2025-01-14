@@ -2,44 +2,25 @@ import React from 'react';
 import { Box, Typography, Grid, Paper } from '@mui/material';
 
 import googleImage from '../assets/images/googlecloud.png';
-<<<<<<< HEAD
-=======
 import nptelImage from '../assets/images/nptellogo.png';
 import srishashaImage from '../assets/images/srishasha.png';
 import internshalaImage from '../assets/images/internshala.png';
 import be10xImage from '../assets/images/be10x.png';
 import cybersecurityImage from '../assets/images/cybersecurity.png';
 import pythonImage from '../assets/images/python.png';
->>>>>>> gh-pages
 
 const certificationData = [
   {
     title: "NPTEL Online Certification in Cloud Computing ",
     institution: "NPTEL",
     year: "2023",
-<<<<<<< HEAD
-    link: "https://coursera.org/certificate-link",
-    logo: googleImage, 
-=======
     link: "https://drive.google.com/file/d/1fi9IseHPhINgjONg4cN3c2OXLnISREqi/view?usp=sharing",
     logo: nptelImage, 
->>>>>>> gh-pages
   },
   {
     title: "Google Cloud Career Readiness Associate Cloud Engineer Track ",
     institution: "L4g",
     year: "2023",
-<<<<<<< HEAD
-    link: "https://udemy.com/certificate-link",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Udemy_logo.svg/2560px-Udemy_logo.svg.png",
-  },
-  {
-    title: "Online Internship Programme on Machine Learning with Python ",
-    institution: "sri",
-    year: "2023",
-    link: "https://awsacademy.com/certificate-link",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
-=======
     link: "https://drive.google.com/file/d/1qEr4AYKHNF010Z_v86yaieSTrpc1alxQ/view?usp=sharing",
     logo: googleImage,
   },
@@ -49,28 +30,18 @@ const certificationData = [
     year: "2023",
     link: "https://drive.google.com/file/d/1lZU7Y7AiJjds7mn37lMg3Am36ANRmV_W/view?usp=sharing",
     logo: srishashaImage,
->>>>>>> gh-pages
   },
   {
     title: "Programming with Python ",
     institution: "Internshala",
     year: "2022",
-<<<<<<< HEAD
-    link: "https://coursera.org/certificate-link",
-    logo: "https://upload.wikimedia.org/wikipedia/en/a/a7/Johns_Hopkins_University_seal.svg",
-=======
     link: "https://drive.google.com/file/d/1prG6zeivga3dK4_B1EbHGqOv6X-kYPpQ/view?usp=sharing",
     logo: internshalaImage ,
->>>>>>> gh-pages
   },
   {
     title: "Internship & Job Preparation ",
     institution: "Internshala",
     year: "2022",
-<<<<<<< HEAD
-    link: "https://coursera.org/certificate-link",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Cloud_logo.svg",
-=======
     link: "https://drive.google.com/file/d/1YMdttn4ngeK_VHvRAAbRNmYLIPR69y3a/view?usp=sharing",
     logo: internshalaImage,
   },
@@ -94,7 +65,6 @@ const certificationData = [
     year: "2023",
     link: "https://drive.google.com/file/d/18-ytUeoPT0v7i1SJB7FZwnn6Hzb7FuoC/view?usp=sharing",
     logo: pythonImage,
->>>>>>> gh-pages
   },
 ];
 
@@ -149,10 +119,7 @@ const Certifications = () => {
                     width: '40px',
                     height: '40px',
                     objectFit: 'contain',
-<<<<<<< HEAD
-=======
                     borderRadius:'50%',
->>>>>>> gh-pages
                   }}
                 />
                 <Typography variant="h6" sx={{ mb: 1, fontWeight: 'bold', color: '#fff' }}>

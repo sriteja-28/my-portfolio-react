@@ -1,25 +1,5 @@
 import React from 'react';
 import { Box, Grid, Typography, LinearProgress } from '@mui/material';
-<<<<<<< HEAD
-
-const skills = [
-  { name: 'HTML5', level: 95 },
-  { name: 'CSS3', level: 90 },
-  { name: 'Javascript', level: 85 },
-  { name: 'Bootstrap and TailwindCSS', level: 90 },
-  { name: 'React JS', level: 85 },
-  { name: 'Node JS', level: 80 },
-  { name: 'Express Js', level: 80 },
-  { name: 'Material UI', level: 90 },
-  { name: 'Java', level: 85 },
-  { name: 'SQL', level: 85 },
-  { name: 'Git', level: 90 },
-];
-
-const Skills = () => (
-  <Box sx={{ mt: 5, px: 3 }}>
-    <Typography variant="h4" sx={{ mb: 3 }}>
-=======
 import htmlImg from '../assets/skillimages/html.png';
 import cssImg from '../assets/skillimages/css.png';
 import javascriptImg from '../assets/skillimages/javascript.png';
@@ -51,15 +31,11 @@ const skills = [
 const Skills = () => (
   <Box sx={{ mt: 5, px: 3, color: 'black', fontWeight: 'bold' }}>
     <Typography variant="h4" sx={{ mb: 3, fontWeight: 'bold' }}>
->>>>>>> gh-pages
       Skills
     </Typography>
     <Grid container spacing={3}>
       {skills.map((skill) => (
         <Grid item xs={12} sm={6} md={4} key={skill.name}>
-<<<<<<< HEAD
-          <Typography variant="h6">{skill.name}</Typography>
-=======
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
             <img 
               src={skill.logo} 
@@ -68,7 +44,6 @@ const Skills = () => (
             />
             <Typography variant="h6">{skill.name}</Typography>
           </Box>
->>>>>>> gh-pages
           <LinearProgress
             variant="determinate"
             value={skill.level}

@@ -4,15 +4,6 @@ import { styled } from '@mui/material/styles';
 
 import crudImage from '../assets/images/crud.png';
 import dashboardImage from '../assets/images/dashboard.png';
-<<<<<<< HEAD
-
-const images = [
-  {
-    url: crudImage,
-    title: 'ReactCRUD-MUI',
-    width: '100%',
-    githubLink: 'https://react-crud-mui-two.vercel.app/',
-=======
 import portfolioImage from '../assets/images/portfolio.png';
 import loanImage from '../assets/images/loan.png';
 import pincodefetcherImage from '../assets/images/pincodefetcher.png';
@@ -32,36 +23,11 @@ const images = [
     title: 'ReactCRUD-MUI',
     width: '100%',
     githubLink: 'https://github.com/sriteja-28/ReactCRUD-MUI.git',
->>>>>>> gh-pages
   },
   {
     url: dashboardImage,
     title: 'ReactMUIDashboardWithAuth ',
     width: '100%',
-<<<<<<< HEAD
-    githubLink: 'https://react-mui-dashboard-with-auth.vercel.app/login',
-  },
-  {
-    url: './src/assets/images/camera.png',
-    title: 'Loan Eligibility Prediction Using Ensemble Learning I',
-    width: '100%',
-    githubLink: 'https://github.com/project3',
-  },
-  {
-    url: './src/assets/images/burger.png',
-    title: 'Cyber Security Scanning Project ',
-    width: '100%',
-    githubLink: 'https://github.com/project4',
-  },
-  // {
-  //   url: './src/assets/images/camera.png',
-  //   title: 'Project 5',
-  //   width: '100%',
-  //   githubLink: 'https://github.com/project5',
-  // },
-  
-  
-=======
     githubLink: 'https://github.com/sriteja-28/ReactMUIDashboardWithAuth.git',
   },
   {
@@ -96,7 +62,6 @@ const images = [
   },
 
 
->>>>>>> gh-pages
 ];
 
 const ImageButton = styled(ButtonBase)(({ theme }) => ({
@@ -153,11 +118,7 @@ const ImageMarked = styled('span')(({ theme }) => ({
 
 const Projects = () => (
   <>
-<<<<<<< HEAD
-    <Typography variant="h4" sx={{ mb: 3 }}>
-=======
     <Typography variant="h4" sx={{ mb: 4, fontWeight: 'bold' }}>
->>>>>>> gh-pages
       Projects
     </Typography>
     <Grid container spacing={2} justifyContent="center">
@@ -181,11 +142,7 @@ const Projects = () => (
                 <a
                   href={image.githubLink}
                   target='_blank'
-<<<<<<< HEAD
-                  style={{ textDecoration: "none", color: "black" }}
-=======
                   style={{ textDecoration: "none", color: "white",fontWeight:'bold' }}
->>>>>>> gh-pages
                 >
                   {image.title}
                 </a>

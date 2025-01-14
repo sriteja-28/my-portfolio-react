@@ -1,12 +1,7 @@
 import React, { useState } from 'react';
-<<<<<<< HEAD
-
-// Sample internships data
-=======
 import { Typography} from '@mui/material';
 
 
->>>>>>> gh-pages
 const internshipsData = [
   {
     id: 1,
@@ -16,22 +11,6 @@ const internshipsData = [
     responsibilities: [
       "Developed a web application for efficient student attendance management.",
       "Integrated SMS alert functionality.",
-<<<<<<< HEAD
-      "Utilized React.js and Node.js for development.",
-    ],
-  },
-  {
-    id: 2,
-    title: "Backend Development Intern",
-    company: "TechWave",
-    duration: "Jun 2023 - Aug 2023",
-    responsibilities: [
-      "Implemented RESTful APIs for user management.",
-      "Optimized database queries, reducing response time by 20%.",
-      "Collaborated with frontend teams to integrate APIs.",
-    ],
-  },
-=======
       
     ],
     certiflink:"https://drive.google.com/file/d/1Ifl7Xyq3trolk6EaR49z3bjJIAVh6xco/view?usp=sharing",
@@ -50,7 +29,6 @@ const internshipsData = [
     githublink:"https://github.com/sriteja-28?tab=repositories",
   },
 
->>>>>>> gh-pages
 ];
 
 
@@ -72,14 +50,9 @@ const Internships = () => {
 
   return (
     <div style={{ padding: "20px" }}>
-<<<<<<< HEAD
-      <h2>Internships</h2>
-
-=======
       <Typography variant="h4" sx={{ mb: 4, fontWeight: 'bold' }}>
       Internships
       </Typography>
->>>>>>> gh-pages
      
       <div style={{ marginBottom: "20px" }}>
         <span
@@ -141,18 +114,6 @@ const Internships = () => {
 
          
           {activeAccordion === internship.id && (
-<<<<<<< HEAD
-            <div style={{ marginTop: "10px" }}>
-              <p>
-                <strong>Responsibilities:</strong>
-              </p>
-              <ul>
-                {internship.responsibilities.map((resp, index) => (
-                  <li key={index}>{resp}</li>
-                ))}
-              </ul>
-            </div>
-=======
           <div style={{ marginTop: "10px" }}>
           <p>
             <strong>Responsibilities:</strong>
@@ -176,7 +137,6 @@ const Internships = () => {
           </p>
         </div>
         
->>>>>>> gh-pages
           )}
         </div>
       ))}
