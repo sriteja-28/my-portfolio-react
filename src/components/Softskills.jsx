@@ -61,11 +61,19 @@ const FlipCardContainer = styled('div')({
 });
 
 const Softskills = () => {
+<<<<<<< HEAD
   const gridJustify = softskills.length >=5 ? 'center' : 'flex-start';
 
   return (
     <Box sx={{ mt: 5, px: 3 }}>
       <Typography variant="h4" sx={{ mb: 3}}>
+=======
+  const gridJustify = softskills.length >= 5 ? 'center' : 'flex-start';
+
+  return (
+    <Box sx={{ mt: 5, px: 3 }}>
+      <Typography variant="h4" sx={{ mb: 4, fontWeight: 'bold' }}>
+>>>>>>> gh-pages
         Softskills
       </Typography>
       <Grid container spacing={4} justifyContent={gridJustify}>

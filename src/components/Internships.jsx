@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
+<<<<<<< HEAD
 
 // Sample internships data
+=======
+import { Typography} from '@mui/material';
+
+
+>>>>>>> gh-pages
 const internshipsData = [
   {
     id: 1,
@@ -10,6 +16,7 @@ const internshipsData = [
     responsibilities: [
       "Developed a web application for efficient student attendance management.",
       "Integrated SMS alert functionality.",
+<<<<<<< HEAD
       "Utilized React.js and Node.js for development.",
     ],
   },
@@ -24,6 +31,26 @@ const internshipsData = [
       "Collaborated with frontend teams to integrate APIs.",
     ],
   },
+=======
+      
+    ],
+    certiflink:"https://drive.google.com/file/d/1Ifl7Xyq3trolk6EaR49z3bjJIAVh6xco/view?usp=sharing",
+    githublink:"https://github.com/",
+  },
+  {
+    id: 2,
+    title: "Java Fullstack intern",
+    company: "Career IT",
+    duration: "Jun 2024 - Feb 2025",
+    responsibilities: [
+      "Developed several  Fullstack Development projects.",
+      
+    ],
+    certiflink:"#",
+    githublink:"https://github.com/sriteja-28?tab=repositories",
+  },
+
+>>>>>>> gh-pages
 ];
 
 
@@ -45,8 +72,14 @@ const Internships = () => {
 
   return (
     <div style={{ padding: "20px" }}>
+<<<<<<< HEAD
       <h2>Internships</h2>
 
+=======
+      <Typography variant="h4" sx={{ mb: 4, fontWeight: 'bold' }}>
+      Internships
+      </Typography>
+>>>>>>> gh-pages
      
       <div style={{ marginBottom: "20px" }}>
         <span
@@ -108,6 +141,7 @@ const Internships = () => {
 
          
           {activeAccordion === internship.id && (
+<<<<<<< HEAD
             <div style={{ marginTop: "10px" }}>
               <p>
                 <strong>Responsibilities:</strong>
@@ -118,6 +152,31 @@ const Internships = () => {
                 ))}
               </ul>
             </div>
+=======
+          <div style={{ marginTop: "10px" }}>
+          <p>
+            <strong>Responsibilities:</strong>
+          </p>
+          <ul>
+            {internship.responsibilities.map((resp, index) => (
+              <li key={index}>{resp}</li>
+            ))}
+          </ul>
+          <p>
+            <strong>Certification:</strong>{" "}
+            <a href={internship.certiflink} target="_blank" rel="noopener noreferrer">
+              View Certificate
+            </a>
+          </p>
+          <p>
+            <strong>GitHub:</strong>{" "}
+            <a href={internship.githublink} target="_blank" rel="noopener noreferrer">
+              View GitHub Profile
+            </a>
+          </p>
+        </div>
+        
+>>>>>>> gh-pages
           )}
         </div>
       ))}

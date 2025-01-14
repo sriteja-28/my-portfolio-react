@@ -53,13 +53,21 @@ const Education = () => {
   return (
     <Box sx={{ width: '80%', margin: 'auto' }}>
      
+<<<<<<< HEAD
       <Typography variant="h4" sx={{ mb: 4 }}>Education</Typography>
+=======
+      <Typography variant="h4" sx={{ mb: 4 ,fontWeight:'bold'}}>Education</Typography>
+>>>>>>> gh-pages
       <Box sx={{ mb: 6 }}>
         {educationData.map((item, index) => (
           <Timeline key={index}>
             <TimelineDot />
             <TimelineContent>
+<<<<<<< HEAD
               <Typography variant="h6">{item.degree}</Typography>
+=======
+              <Typography variant="h6" sx={{fontWeight:'bold'}}>{item.degree}</Typography>
+>>>>>>> gh-pages
               <Typography variant="body2">{item.institution}</Typography>
               <Typography variant="body2" color="textSecondary">{item.duration}</Typography>
               <Typography variant="body2">{item.description}</Typography>

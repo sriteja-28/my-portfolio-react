@@ -4,6 +4,7 @@ import { styled } from '@mui/material/styles';
 
 import crudImage from '../assets/images/crud.png';
 import dashboardImage from '../assets/images/dashboard.png';
+<<<<<<< HEAD
 
 const images = [
   {
@@ -11,11 +12,33 @@ const images = [
     title: 'ReactCRUD-MUI',
     width: '100%',
     githubLink: 'https://react-crud-mui-two.vercel.app/',
+=======
+import portfolioImage from '../assets/images/portfolio.png';
+import loanImage from '../assets/images/loan.png';
+import pincodefetcherImage from '../assets/images/pincodefetcher.png';
+import holidayexImage from '../assets/images/holidayex.png';
+import qrbrcodeImage from '../assets/images/qrbrcode.png';
+import dynamiccompanyImage from '../assets/images/dynamiccompany.png';
+
+const images = [
+  {
+    url: portfolioImage,
+    title: 'MyPortfolio',
+    width: '100%',
+    githubLink: 'https://github.com/sriteja-28/my-portfolio-react.git',
+  },
+  {
+    url: crudImage,
+    title: 'ReactCRUD-MUI',
+    width: '100%',
+    githubLink: 'https://github.com/sriteja-28/ReactCRUD-MUI.git',
+>>>>>>> gh-pages
   },
   {
     url: dashboardImage,
     title: 'ReactMUIDashboardWithAuth ',
     width: '100%',
+<<<<<<< HEAD
     githubLink: 'https://react-mui-dashboard-with-auth.vercel.app/login',
   },
   {
@@ -38,6 +61,42 @@ const images = [
   // },
   
   
+=======
+    githubLink: 'https://github.com/sriteja-28/ReactMUIDashboardWithAuth.git',
+  },
+  {
+    url:loanImage,
+    title: 'Loan Eligibility Prediction Using Ensemble Learning',
+    width: '100%',
+    githubLink: 'https://github.com/sriteja-28/Loan-eligibility-prediction-using-ensemble-learning.git',
+  },
+  {
+    url: dynamiccompanyImage,
+    title: 'Dynamic Drive and Company Submission',
+    width: '100%',
+    githubLink: 'https://github.com/sriteja-28/Template_CarrerIT.git',
+  },
+  {
+    url:  holidayexImage,
+    title: 'Holiday Experience',
+    width: '100%',
+    githubLink: 'https://github.com/sriteja-28/Holidayexperience.git',
+  },
+  {
+    url: pincodefetcherImage,
+    title: 'Pincode Fetcher',
+    width: '100%',
+    githubLink: 'https://github.com/sriteja-28/Pincode-Fetcher-App.git',
+  },
+  {
+    url: qrbrcodeImage ,
+    title: 'QR Code and Barcode Generator',
+    width: '100%',
+    githubLink: 'https://github.com/sriteja-28/QR-Code-and-Barcode-Generator.git',
+  },
+
+
+>>>>>>> gh-pages
 ];
 
 const ImageButton = styled(ButtonBase)(({ theme }) => ({
@@ -94,7 +153,11 @@ const ImageMarked = styled('span')(({ theme }) => ({
 
 const Projects = () => (
   <>
+<<<<<<< HEAD
     <Typography variant="h4" sx={{ mb: 3 }}>
+=======
+    <Typography variant="h4" sx={{ mb: 4, fontWeight: 'bold' }}>
+>>>>>>> gh-pages
       Projects
     </Typography>
     <Grid container spacing={2} justifyContent="center">
@@ -118,7 +181,11 @@ const Projects = () => (
                 <a
                   href={image.githubLink}
                   target='_blank'
+<<<<<<< HEAD
                   style={{ textDecoration: "none", color: "black" }}
+=======
+                  style={{ textDecoration: "none", color: "white",fontWeight:'bold' }}
+>>>>>>> gh-pages
                 >
                   {image.title}
                 </a>
