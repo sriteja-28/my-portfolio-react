@@ -87,16 +87,6 @@ const App = () => {
               <Skills />
             </section>
 
-            
-            <section id="education" style={{ padding: '20px 20px' }}>
-              <Education />
-            </section>
-
-           
-            <section id="certifications" style={{ padding: '20px 20px' }}>
-              <Certifications />
-            </section>
-
             <section id="internships" style={{ padding: '20px 20px'}}>
               <Internships />
             </section>
@@ -104,6 +94,19 @@ const App = () => {
             <section id="projects" style={{ padding: '20px 20px' }}>
               <Projects />
             </section>
+
+            
+            <section id="education" style={{ padding: '20px 20px' }}>
+              <Education />
+            </section>
+           
+            <section id="certifications" style={{ padding: '20px 20px' }}>
+              <Certifications />
+            </section>
+
+            
+
+            
 
             <section id="my-essence"  style={{ padding: '20px 20px' }}>
               <Achievements />

@@ -21,10 +21,10 @@ const Header = () => {
           <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: 2, overflowX: 'auto' }}>
             <Button color="inherit" href="#about">About</Button>
             <Button color="inherit" href="#skills">Skills</Button>
-            <Button color="inherit" href="#education">Education</Button>
-            <Button color="inherit" href="#certifications">Certifications</Button>
             <Button color="inherit" href="#internships">Internships</Button>
             <Button color="inherit" href="#projects">Projects</Button>
+            <Button color="inherit" href="#education">Education</Button>
+            <Button color="inherit" href="#certifications">Certifications</Button>
             <Button color="inherit" href="#my-essence">My Essence</Button>
             <Button color="inherit" href="#contact">Contact</Button>
           </Box>
@@ -45,7 +45,7 @@ const Header = () => {
       
       <Drawer anchor="right" open={drawerOpen} onClose={toggleDrawer}>
         <List sx={{ width: 250 }}>
-          {['About', 'Skills', 'Education', 'Certifications','Internships','Projects','My Essence', 'Contact'].map((text) => (
+          {['About', 'Skills','Internships','Projects', 'Education', 'Certifications','My Essence', 'Contact'].map((text) => (
             <ListItem button={String(true)} key={text} onClick={toggleDrawer}>
               <ListItemText>
                 <a 

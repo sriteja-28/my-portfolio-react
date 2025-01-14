@@ -61,11 +61,11 @@ const FlipCardContainer = styled('div')({
 });
 
 const Softskills = () => {
-  const gridJustify = softskills.length >=5 ? 'center' : 'flex-start';
+  const gridJustify = softskills.length >= 5 ? 'center' : 'flex-start';
 
   return (
     <Box sx={{ mt: 5, px: 3 }}>
-      <Typography variant="h4" sx={{ mb: 3}}>
+      <Typography variant="h4" sx={{ mb: 4, fontWeight: 'bold' }}>
         Softskills
       </Typography>
       <Grid container spacing={4} justifyContent={gridJustify}>

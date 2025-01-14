@@ -65,7 +65,7 @@ const Interests = () => {
 
   return (
     <Box sx={{ mt: 5, px: 3 }}>
-      <Typography variant="h4" sx={{ mb: 3 }}>
+      <Typography variant="h4" sx={{ mb: 3 ,fontWeight:'bold'}}>
         Interests
       </Typography>
       <Grid container spacing={4} justifyContent={gridJustify}>

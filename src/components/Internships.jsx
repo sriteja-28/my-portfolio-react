@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import { Typography} from '@mui/material';
 
-// Sample internships data
+
 const internshipsData = [
   {
     id: 1,
@@ -10,20 +11,24 @@ const internshipsData = [
     responsibilities: [
       "Developed a web application for efficient student attendance management.",
       "Integrated SMS alert functionality.",
-      "Utilized React.js and Node.js for development.",
+      
     ],
+    certiflink:"https://drive.google.com/file/d/1Ifl7Xyq3trolk6EaR49z3bjJIAVh6xco/view?usp=sharing",
+    githublink:"https://github.com/",
   },
   {
     id: 2,
-    title: "Backend Development Intern",
-    company: "TechWave",
-    duration: "Jun 2023 - Aug 2023",
+    title: "Java Fullstack intern",
+    company: "Career IT",
+    duration: "Jun 2024 - Feb 2025",
     responsibilities: [
-      "Implemented RESTful APIs for user management.",
-      "Optimized database queries, reducing response time by 20%.",
-      "Collaborated with frontend teams to integrate APIs.",
+      "Developed several  Fullstack Development projects.",
+      
     ],
+    certiflink:"#",
+    githublink:"https://github.com/sriteja-28?tab=repositories",
   },
+
 ];
 
 
@@ -45,8 +50,9 @@ const Internships = () => {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h2>Internships</h2>
-
+      <Typography variant="h4" sx={{ mb: 4, fontWeight: 'bold' }}>
+      Internships
+      </Typography>
      
       <div style={{ marginBottom: "20px" }}>
         <span
@@ -108,16 +114,29 @@ const Internships = () => {
 
          
           {activeAccordion === internship.id && (
-            <div style={{ marginTop: "10px" }}>
-              <p>
-                <strong>Responsibilities:</strong>
-              </p>
-              <ul>
-                {internship.responsibilities.map((resp, index) => (
-                  <li key={index}>{resp}</li>
-                ))}
-              </ul>
-            </div>
+          <div style={{ marginTop: "10px" }}>
+          <p>
+            <strong>Responsibilities:</strong>
+          </p>
+          <ul>
+            {internship.responsibilities.map((resp, index) => (
+              <li key={index}>{resp}</li>
+            ))}
+          </ul>
+          <p>
+            <strong>Certification:</strong>{" "}
+            <a href={internship.certiflink} target="_blank" rel="noopener noreferrer">
+              View Certificate
+            </a>
+          </p>
+          <p>
+            <strong>GitHub:</strong>{" "}
+            <a href={internship.githublink} target="_blank" rel="noopener noreferrer">
+              View GitHub Profile
+            </a>
+          </p>
+        </div>
+        
           )}
         </div>
       ))}
