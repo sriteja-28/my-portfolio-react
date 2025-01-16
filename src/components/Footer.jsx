@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Typography, IconButton, Grid } from "@mui/material";
-import { GitHub, LinkedIn, Twitter, Email } from "@mui/icons-material";
+import { GitHub, LinkedIn, Email } from "@mui/icons-material";
+import XIcon from '@mui/icons-material/X';
 
 const Footer = () => {
   return (
@@ -37,11 +38,11 @@ const Footer = () => {
         </Grid>
         <Grid item>
           <IconButton
-            href="https://twitter.com/sriteja"
+            href="https://twitter.com/sriteja_1128"
             target="_blank"
             sx={{ color: "#fff", "&:hover": { color: "#1DA1F2" } }}
           >
-            <Twitter />
+            <XIcon/>
           </IconButton>
         </Grid>
         <Grid item>
