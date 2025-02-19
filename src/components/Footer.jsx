@@ -29,7 +29,7 @@ const Footer = () => {
         </Grid>
         <Grid item>
           <IconButton
-            href="https://www.linkedin.com/in/sri-teja-muthangi-38392a206/"
+            href="https://www.linkedin.com/in/sritejamuthangi/"
             target="_blank"
             sx={{ color: "#fff", "&:hover": { color: "#0e76a8" } }}
           >
