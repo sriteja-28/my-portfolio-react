@@ -14,7 +14,7 @@ const internshipsData = [
       
     ],
     certiflink:"https://drive.google.com/file/d/1Ifl7Xyq3trolk6EaR49z3bjJIAVh6xco/view?usp=sharing",
-    githublink:"https://github.com/",
+    githublink:"https://github.com/sriteja-28/AttendanceManager_Twilio.git",
   },
   {
     id: 2,

@@ -5,10 +5,10 @@ import { styled } from '@mui/material/styles';
 
 const educationData = [
   {
-    degree: "B.Tech in Computer Science and Engineering",
-    institution: "Bapatla Engineering College,Bapatla",
-    duration: "2020 - 2024",
-    description: "CGPA: 8.46",
+    degree: "SSC",
+    institution: "Little Angels EM High School, Nellore ",
+    duration: "2017 - 2018",
+    description: "CGPA: 9.2",
   },
   {
     degree: "Intermediate",
@@ -17,11 +17,12 @@ const educationData = [
     description: "CGPA: 9.88",
   },
   {
-    degree: "SSC",
-    institution: "Little Angels EM High School, Nellore ",
-    duration: "2017 - 2018",
-    description: "CGPA: 9.2",
+    degree: "B.Tech in Computer Science and Engineering",
+    institution: "Bapatla Engineering College,Bapatla",
+    duration: "2020 - 2024",
+    description: "CGPA: 8.46",
   },
+
 ];
 
 
